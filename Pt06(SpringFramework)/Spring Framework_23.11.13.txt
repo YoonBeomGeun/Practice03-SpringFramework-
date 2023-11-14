@@ -1,0 +1,9 @@
+Spring Framework_23.11.13
+
+<Tomcat이 파일 읽는 순서>
+1. web.xml
+2. root-context.xml
+3. servlet-context.xml
+
+<xml파일 실행 순서>
+web.xml => root-context.xml => mybatis-config.xml => memberMapper.xml => servlet-context.xml
